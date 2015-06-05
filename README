@@ -1,0 +1,67 @@
+Name: Olujimi Olugboyega 
+Login: cs11fgr 
+Date: 08/15/2014
+File: README
+Sources:http://www.radford.edu/   http://www.programmerinterview.com
+
+Program Description
+This Critters program is meant ot simulate an animation of different
+objects reacting to each other on the canvas. The program consists
+of a chaser, a runner and a random character. The chaser is meant to 
+chase the runner that is runnning away from it while the random chara
+cter moves randomly along the canvas. The program works in a way that
+each critter reacts to the one that is closest to it. This was done 
+by calculating the distance of all the characters on the canvas and 
+acting according to the one that is closest to it. There are also some
+restrictions on the critters like the chaser cannot chase itself and
+none of the critters can leave the canvas. This progam also allows the
+user to start, stop or clear the canvas and whenever a critter is sel
+ected, the program intructs the user to click on the canvas to create
+the critter. This program was tested by inserting a very large amount
+of critters in the canvas and also by pressing the buttons in different
+scenarios to test for exception. By far the most fun assignment.
+
+Java Questions:
+1. A high school student is trying to write a Java program that will
+ draw different shapes and in different possiblecolors. To do this, 
+ she has written just one Java class called ShapeDrawer, which contains 
+ all the necessary methods like drawRedCircle(), drawBlueCircle(), 
+ drawYellowSquare(), drawGreenSquare(), and so on. Using object-oriented 
+ terminology, describe how you can help the student improve her design.
+ 
+  I would recommend that she goes through the java api library
+  to get each shape. She should also specify the dimensions
+  with the instructions given( according to the parameters)
+  She should also check the library to see the method that will
+  fill the shape with color. She should then apply this inform
+  ation to the necessary methods.  
+  
+  
+
+2. List at least two ways in which Java Interfaces and Java abstract 
+classes are different.
+Variables declared in a Java interface is by default final. An  
+abstract class may contain non-final variables.
+
+Java interface should be implemented using keyword implements; 
+A Java abstract class should be extended using keyword extends.
+
+3. List at least two ways in which Java Interfaces and Java abstract 
+classes are alike.
+Neither Abstract classes nor Interface can be instantiated.
+
+We can't create a object of both Interface and Abstract class.
+We create object of the class who inherit either abstract class 
+of interface.
+
+Vim Questions:
+4. How can you run gvim through the command line to open all Java source 
+code files in the current directory, eachfile in its own tab?
+ gvim -p*.java
+
+Unix Questions:
+5. Suppose you are currently inside a directory and in there you want to 
+make a new directory called fooDir. And inside fooDir, you want another 
+directory called barDir. Using only a single mkdir command, how can you 
+create a directory called fooDir with a directory called barDir inside it?
+ mkdir -p fooDir/barDir
